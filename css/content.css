@@ -1,0 +1,53 @@
+.h2-content {
+  padding: 80px 5%;
+  text-align: left;
+  flex: 1;
+  background: white;
+  min-height: calc(100vh - 200px);
+}
+
+.h2-content h2 {
+  font-size: 2.5rem;
+  color: #2a4aa1;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.h2-content h2::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: #e74c3c;
+  border-radius: 2px;
+}
+
+.h2-content p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 0 40px 0;
+  line-height: 1.8;
+  color: #333;
+}
+.content-image {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 8px 25px rgba(42, 74, 161, 0.15);
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .content-image {
+    float: none;
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 100%;
+    max-width: 350px;
+  }
+}

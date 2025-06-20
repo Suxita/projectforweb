@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2a4aa1;
+}
+
+p {
+  color: #333;
+  line-height: 1.8;
+}
+
+.h1-txt {
+  position: absolute;
+  left: -99999px;
+}
+
+input {
+  font-family: inherit;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
